@@ -5,8 +5,8 @@ import "./App.css";
 function App() {
   const [count, setCount] = useState(0);
 
-  const num1: any = 0;
-  if (num1 == count) {
+  const num1: number = 0;
+  if (num1 === count) {
     console.log("hola");
   }
 
